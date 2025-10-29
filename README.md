@@ -1,81 +1,73 @@
-# 🎓 Task 3 — College Event Feedback Analysis  
-### Future Interns | Data Science & Analytics Internship
+# FUTURE_DS_03  
+“Task 3 – College Event Feedback Analysis for Future Interns Internship”  
 
-This repository contains **Task 3** of my **Data Science & Analytics Internship** with **Future Interns**, focusing on analyzing student feedback from college events.  
-The objective of this task is to perform **data cleaning, preprocessing, exploratory analysis, and sentiment labeling**, leading to a structured result file:  
-📁 `College_Event_Feedback_Result.csv`
+# 🎓 FUTURE_DS_03 - College Event Feedback Analysis  
 
----
-
-## 🧩 Project Overview
-
-College events are an important part of student life, and collecting feedback helps institutions improve future experiences.  
-This project aims to **analyze feedback provided by students** to determine whether the sentiment is **Positive**, **Neutral**, or **Negative**.
-
-### 🎯 Objectives
-- Clean and preprocess raw feedback text  
-- Explore data and visualize overall feedback sentiment trends  
-- Perform **Sentiment Analysis** using the TextBlob library  
-- Classify feedback into **Positive**, **Neutral**, or **Negative**  
-- Export the final structured dataset into `College_Event_Feedback_Result.csv`
+[![Python](https://img.shields.io/badge/Python-Project-blue?logo=python)](https://www.python.org/)  
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()  
 
 ---
 
-## 🧠 Workflow Summary
-
-### 1️⃣ Data Cleaning
-- Removed null values and duplicates  
-- Processed text data for uniformity  
-
-### 2️⃣ Exploratory Data Analysis (EDA)
-- Visualized overall feedback sentiment  
-- Analyzed patterns and trends within the data  
-
-### 3️⃣ Sentiment Analysis
-- Applied **TextBlob** polarity scoring  
-- Mapped polarity results to three categories:
-  - Positive  
-  - Neutral  
-  - Negative  
-
-### 4️⃣ Export Final Results
-- Final processed data with sentiment results saved to:  
-  ✅ **`College_Event_Feedback_Result.csv`**
+## 👨‍💼 About Me  
+I am a passionate and analytical **Data Science & Analytics Intern** at **Future Interns**, skilled in turning raw data into meaningful insights.  
+This task demonstrates my ability to use **Python, NLP (Natural Language Processing)**, and **Sentiment Analysis** techniques to understand and visualize student feedback data.  
 
 ---
 
-## 📊 Result Example (Preview)
+## 📊 Project Overview  
+The **College Event Feedback Analysis** project focuses on analyzing student feedback collected after college events.  
+By applying **sentiment analysis**, we can determine whether each piece of feedback is **Positive**, **Neutral**, or **Negative**, providing actionable insights to improve future events.
 
-| Feedback | Sentiment |
-|-----------|------------|
-| “The event was fantastic and very well organized.” | Positive |
-| “It was okay, could have been better.” | Neutral |
-| “I didn’t like the arrangements at all.” | Negative |
+**Key Features:**  
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Sentiment Classification using **TextBlob**  
+- Visualization of Sentiment Distribution  
+- Exported final dataset to `College_Event_Feedback_Result.csv`
 
 ---
 
-## ⚙️ Tools & Technologies Used
+## 📁 Dataset  
+All dataset files are stored in the project folder.  
+
+- **File:** `feedback student.csv`  
+- **Columns:**  
+  `Student ID | Feedback | Sentiment | Average_Feedback`  
+- **Description:** Contains feedback responses from students about college events and their overall satisfaction levels.  
+
+---
+
+## 📂 Analysis Notebook  
+All analysis steps are included in the **Jupyter Notebook** file:  
+
+- **File:** `College_Event_Feedback_Analysis.ipynb`  
+- **Features:**  
+  - Data Cleaning & Preprocessing  
+  - Exploratory Data Analysis (EDA)  
+  - Sentiment Analysis using TextBlob  
+  - Export of results to CSV  
+  - Visualizations of sentiment distribution  
+
+---
+
+## 📈 Insights  
+- Majority of students provided **positive feedback** on the events.  
+- Some feedback suggested improvements in event management and communication.  
+- **Visual analysis** revealed trends in how students perceive overall organization quality.  
+- Final sentiment results were exported to `College_Event_Feedback_Result.csv`.
+
+---
+
+## ⚙️ Tech Stack  
 - **Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, TextBlob  
 - **Environment:** Jupyter Notebook  
+- **Version Control:** Git & GitHub  
 
 ---
 
-## 📁 Project Files
-
-| File Name | Description |
-|------------|-------------|
-| `feedback student.csv` | Original dataset |
-| `College_Event_Feedback_Result.csv` | Final processed dataset with sentiments |
-| `College_Event_Feedback_Analysis.ipynb` | Jupyter Notebook containing full analysis |
-| `requirements.txt` | Required Python dependencies |
-| `README.md` | Project documentation |
-
----
-
-## 🚀 How to Run the Project
-
-1. **Clone the repository**
+## 🚀 Usage Instructions  
+1. Download or clone this repository:  
    ```bash
    git clone https://github.com/jenamjain/FUTURE_DS_03.git
    cd Task-3
